@@ -10,9 +10,12 @@
       "ios": "1.5.0"
     }
   },
+  "scripts": {
+    "release": "npm-github-release"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shripalsoni04/nativescript-webview-interface.git"
+    "url": "hhttps://github.com/MiladSadinam/nativescript-webview-interface.git"
   },
   "keywords": [
     "Nativescript",
@@ -25,11 +28,14 @@
     "website": "www.shripalsoni.com"
   },
   "bugs": {
-    "url": "https://github.com/shripalsoni04/nativescript-webview-interface/issues"
+    "url": "https://github.com/MiladSadinam/nativescript-webview-interface/issues"
   },
   "license": {
     "type": "MIT",
     "url": "https://github.com/shripalsoni04/nativescript-webview-interface/blob/master/LICENSE"
   },
-  "homepage": "https://github.com/shripalsoni04/nativescript-webview-interface"
+  "homepage": "https://github.com/MiladSadinam/nativescript-webview-interface",
+  "devDependencies": {
+    "npm-github-release": "^0.13.0"
+  }
 }
